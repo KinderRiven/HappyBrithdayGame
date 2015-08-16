@@ -1,0 +1,30 @@
+﻿Build started 2015/8/5 23:30:26.
+     1>Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing mikugame.h...
+         Moc'ing happybirthday.h...
+       ClCompile:
+         F:\VS2013NEW\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /ZI /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_happybirthday.cpp GeneratedFiles\Release\moc_mikugame.cpp dropthing.cpp happybirthday.cpp main.cpp mikugame.cpp
+     1>cl : Command line warning D9038: /ZI is not supported on this platform; enabling /Zi instead
+         moc_happybirthday.cpp
+         moc_mikugame.cpp
+         dropthing.cpp
+         happybirthday.cpp
+         main.cpp
+         mikugame.cpp
+         Generating Code...
+       Link:
+         F:\VS2013NEW\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\KinderRiven\MikuGame\x64\Release\\MikuGame.exe" /NOLOGO /LIBPATH:F:\QT\QT5.4.2\5.4\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Multimedia.lib Qt5MultimediaWidgets.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\KinderRiven\MikuGame\x64\Release\MikuGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\KinderRiven\MikuGame\x64\Release\MikuGame.lib" /MACHINE:X64 x64\Release\dropthing.obj
+         x64\Release\qrc_mikugame.obj
+         x64\Release\moc_dropthing.obj
+         x64\Release\moc_happybirthday.obj
+         x64\Release\moc_mikugame.obj
+         x64\Release\happybirthday.obj
+         x64\Release\main.obj
+         x64\Release\mikugame.obj
+     1>LINK : fatal error LNK1168: cannot open F:\KinderRiven\MikuGame\x64\Release\\MikuGame.exe for writing
+     1>Done Building Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.80

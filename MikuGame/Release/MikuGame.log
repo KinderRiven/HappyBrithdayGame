@@ -1,0 +1,29 @@
+﻿Build started 2015/8/5 23:11:03.
+     1>Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS2013NEW\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_dropthing.cpp GeneratedFiles\Release\moc_happybirthday.cpp GeneratedFiles\Release\moc_mikugame.cpp dropthing.cpp happybirthday.cpp main.cpp mikugame.cpp
+         moc_dropthing.cpp
+         moc_happybirthday.cpp
+         moc_mikugame.cpp
+         dropthing.cpp
+         happybirthday.cpp
+         main.cpp
+         mikugame.cpp
+         Generating Code...
+         F:\VS2013NEW\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mikugame.cpp
+         qrc_mikugame.cpp
+       Link:
+         F:\VS2013NEW\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\KinderRiven\MikuGame\Win32\Release\\MikuGame.exe" /NOLOGO /LIBPATH:F:\QT\QT5.4.2\5.4\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Multimedia.lib Qt5MultimediaWidgets.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\KinderRiven\MikuGame\Win32\Release\MikuGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\KinderRiven\MikuGame\Win32\Release\MikuGame.lib" /MACHINE:X86 /SAFESEH Release\dropthing.obj
+         Release\qrc_mikugame.obj
+         Release\moc_dropthing.obj
+         Release\moc_happybirthday.obj
+         Release\moc_mikugame.obj
+         Release\happybirthday.obj
+         Release\main.obj
+         Release\mikugame.obj
+     1>Qt5Widgets.lib(Qt5Widgets.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.03
