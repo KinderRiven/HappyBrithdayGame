@@ -1,11 +1,25 @@
-﻿Build started 2015/8/5 23:11:03.
-     1>Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         F:\VS2013NEW\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_dropthing.cpp GeneratedFiles\Release\moc_happybirthday.cpp GeneratedFiles\Release\moc_mikugame.cpp dropthing.cpp happybirthday.cpp main.cpp mikugame.cpp
+﻿Build started 2015/9/11 15:08:42.
+     1>Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Moc'ing mikugame.h...
+         Qt: Untested Windows version 10.0 detected!
+         Uic'ing mikugame.ui...
+         Moc'ing happybirthday.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing dropthing.h...
+         Qt: Untested Windows version 10.0 detected!
+         Rcc'ing mikugame.qrc...
+         Qt: Untested Windows version 10.0 detected!
+     1>RCC : warning : No resources in 'F:\KinderRiven\MikuGame\MikuGame\mikugame.qrc'.
+         
+         Uic'ing dropthing.ui...
+         Uic'ing happybirthday.ui...
+       ClCompile:
+         F:\VS2013NEW\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dropthing.cpp GeneratedFiles\Release\moc_dropthing.cpp GeneratedFiles\Release\moc_happybirthday.cpp GeneratedFiles\Release\moc_mikugame.cpp happybirthday.cpp main.cpp mikugame.cpp
+         dropthing.cpp
          moc_dropthing.cpp
          moc_happybirthday.cpp
          moc_mikugame.cpp
-         dropthing.cpp
          happybirthday.cpp
          main.cpp
          mikugame.cpp
@@ -22,8 +36,8 @@
          Release\main.obj
          Release\mikugame.obj
      1>Qt5Widgets.lib(Qt5Widgets.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
-     1>Done Building Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "F:\KinderRiven\MikuGame\MikuGame\MikuGame.vcxproj" (Rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:06.03
+Time Elapsed 00:00:07.34
